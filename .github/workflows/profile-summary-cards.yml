@@ -1,8 +1,10 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  schedule: # execute every 24 hours
-    - cron: "* */24 * * *"
+  create:
+  push:
+  schedule: # 24時間に一回実行されます
+    - cron: "* */24 * * *" # [1]
   workflow_dispatch:
 
 jobs:
@@ -14,6 +16,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${SUMMARY_SECRET}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
-          USERNAME: ${yukit4mu}
+          USERNAME: ${{ github.repository_owner }}
