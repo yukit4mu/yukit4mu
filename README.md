@@ -1,5 +1,5 @@
 ## Hi there, I'm yukit4mu🤟
-
+yukit4mu is a dog. This is what it looks like on holidays.
 ```
                 ______    ____
                :  ;;;;\__/:  ;\
