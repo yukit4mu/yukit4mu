@@ -1,5 +1,5 @@
 ## Hi there, I'm yukit4mu🤟
-yukit4mu is a dog. This is what it looks like on holidays.
+This is what I look like when I commit to github.
 ```
                 ______    ____
                :  ;;;;\__/:  ;\
